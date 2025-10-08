@@ -1,8 +1,8 @@
 import pandas as pd 
-import os, requests
+import os
 from dotenv import load_dotenv
-from param_getters.location_search import locations
-from param_getters.api_data_fetcher import api_data
+from pipeline.location_search import locations
+from pipeline.api_data_fetcher import api_data
 
 load_dotenv()
 api_key = os.getenv("OPENAQ_API_KEY")

@@ -1,4 +1,4 @@
-from param_getters.get_location_sensors_ids import get_ids_data
+from pipeline.get_location_sensors_ids import get_ids_data
 
 class locations:
     def __init__(self, city):

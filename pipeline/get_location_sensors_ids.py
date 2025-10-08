@@ -1,6 +1,6 @@
 import pandas as pd
 import ast
-from param_getters.data_cleaner import get_location_sensors
+from pipeline.data_cleaner import get_location_sensors
 
 class get_ids_data:
     def __init__(self, city):

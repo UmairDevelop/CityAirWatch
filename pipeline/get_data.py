@@ -1,5 +1,5 @@
 from dotenv import load_dotenv
-from param_getters.data_cleaner import get_location_sensors
+from pipeline.data_cleaner import get_location_sensors
 import os
 
 load_dotenv()
