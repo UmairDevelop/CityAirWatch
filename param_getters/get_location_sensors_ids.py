@@ -1,5 +1,5 @@
 import pandas as pd
-import ast, json
+import ast
 from param_getters.data_cleaner import get_location_sensors
 
 class get_ids_data:
